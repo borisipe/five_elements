@@ -5,37 +5,41 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import logo from "../assets/logo.png"
+import {link} from 'react-scroll'
+
 
 export const Header = () => {
+
+
+        
     return (
         <>
-        <nav class="navbar navbar-expand-lg custom-navbar" style = {{backgroundColor: "rgba(114, 0, 76, 0.3)"} }>
-  <a class="navbar-brand" href="#">
-    <img src={logo} width="70px"></img>
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Inicio <span class="sr-only"></span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Agendar Hora</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">servicios</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contacto</a>
-      </li>
-    
-    </ul>
-  </div>
-</nav>
-            
-        </>
+      <Navbar class="navbar navbar-expand-lg custom-navbar " style={{ backgroundColor: "rgb(78, 61, 100)"}} >
+        <Navbar.Brand href="#" className='px-5'>
+          <img src={logo} width="60px" alt="Logo"></img>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarNav" />
+        <Navbar.Collapse id="navbarNav">
+          <Nav className="navbar-nav">
+             <Nav.Link className='px-5'></Nav.Link>
+             <Nav.Link className='px-5'></Nav.Link>
+             <Nav.Link className='px-5'></Nav.Link>
+             <Nav.Link className='px-5'></Nav.Link>
+             <Nav.Link className='px-5'></Nav.Link>
+             <Nav.Link className='px-5'></Nav.Link>
+
+
+            <Nav.Link href="#inicio" className='px-3 text-light'>Inicio</Nav.Link>
+            <Nav.Link href="#descripcionEmpresa" className='px-3 text-light'>Agendar Hora</Nav.Link>
+            <Nav.Link href="#servicio-id" className='px-3 text-light'>Servicios</Nav.Link>
+            <Nav.Link href="#testimonio-id" className='px-3 text-light'>Testimonios</Nav.Link>
+            <Nav.Link href="#contacto-id" className='px-3 text-light'>Contacto</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+      {/* Contenido de las secciones */}
+
+    </>
     )
 }
  /*<Navbar expand="lg" className="bg-body-tertiary">

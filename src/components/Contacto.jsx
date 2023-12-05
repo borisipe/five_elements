@@ -7,7 +7,7 @@ import whatsapp from "../assets/whatsapp.png"
 
 function Contacto() {
     return (
-        <div class="contacto">
+        <div class="contacto" id = "contacto-id">
             <div class="row-1" style={{ display: "flex", flexDirection: "row", justifyContent: "space-evenly", backgroundColor: "rgba(255,255,140,1)" }}>
                 <div class="izquierda" style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "30px", width: "100%", flexBasis: "content" }}>
                     <img src={logo} width="100px"></img>

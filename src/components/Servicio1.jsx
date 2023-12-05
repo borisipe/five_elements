@@ -4,7 +4,7 @@ import background from '../assets/terapiaregresiva1.png'
 function Servicio1() {
   return (
     <>
-      <div style={{ height: "100%" }}>
+      <div style={{ height: "100%" }} id = "servicio-id">
         <div style={{ height: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
           <div class="p-5 text-center bg-image rounded-3" style={{
             backgroundImage: `url(${background})`,

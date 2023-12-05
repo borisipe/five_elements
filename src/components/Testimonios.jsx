@@ -4,7 +4,7 @@ import img from '../assets/biomagnetismo1.png'
 function Testimonios() {
     return (
         <>
-            <div class="testimonios" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+            <div class="testimonios" id = "testimonio-id"style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
 
                 <h1> Testimonios </h1>
                 <div>
