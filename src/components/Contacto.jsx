@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "../assets/logo.png"
-import facebook from "../assets/facebook.png"
-import instagram from "../assets/instagram.png"
-import whatsapp from "../assets/whatsapp.png"
+import logo from "../assets/logo.png";
+import facebook from "../assets/facebook.png";
+import instagram from "../assets/instagram.png";
+import whatsapp from "../assets/whatsapp.png";
 
 
 function Contacto() {

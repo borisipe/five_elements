@@ -1,7 +1,7 @@
 import React from 'react';
-import background from '../assets/terapiafloral1.png'
-import logo from "../assets/Logo-5-Elementos-letra.png"
-import logoWsp from "../assets/icono-whatsap.png"
+import background from '../assets/terapiafloral1.png';
+import logo from "../assets/Logo-5-Elementos-letra.png";
+import logoWsp from "../assets/icono-whatsap.png";
 import { Container, Row, Col } from 'react-bootstrap';
 
 const phoneNumber = '56987636208';

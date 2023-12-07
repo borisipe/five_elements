@@ -1,5 +1,5 @@
 import React from "react";
-import img from '../assets/biomagnetismo1.png'
+import img from '../assets/biomagnetismo1.png';
 
 function Testimonios() {
     return (
